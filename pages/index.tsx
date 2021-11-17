@@ -4,6 +4,7 @@ import Head from "next/head";
 import { Banner } from "../components/banner/Banner";
 import { BlueBlock } from "../components/blueBlock/BlueBlock";
 import { InputBlock } from "../components/inputblock/InputBlock";
+import { MyTabs } from "../components/Tabs/MyTabs";
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
       <Box>
         <Banner />
         <BlueBlock />
-        <InputBlock />
+        <MyTabs />
       </Box>
     </Box>
   );
